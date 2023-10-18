@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Nunito+Sans:opsz@6..12&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+  letter-spacing: 1.1px;
+}
+
+body {
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 50vh;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.counter {
+  border-radius: 5px;
+  border: 1px solid #455;
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.count-display {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  padding: 16px;
+  width: 80px;
+  height: 80px;
+}
+
+hr {
+  width: 100%;
+}
+
+.buttons {
+  display: flex;
+  gap: 8px;
+}
+
+button {
+  border: 1px solid #ccc;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: tomato;
+  color: antiquewhite;
+}
